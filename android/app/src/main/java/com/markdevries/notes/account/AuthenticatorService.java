@@ -1,0 +1,20 @@
+package com.markdevries.notes.account;
+
+import android.app.Service;
+import android.content.Intent;
+import android.os.IBinder;
+import android.support.annotation.Nullable;
+
+/**
+ * Created by mark on 2/15/16.
+ */
+public class AuthenticatorService extends Service {
+
+    @Nullable
+    @Override
+    public IBinder onBind(Intent intent) {
+        AccountAuthenticator authenticator = new AccountAuthenticator(this);
+        return authenticator.getIBinder();
+    }
+}
+
