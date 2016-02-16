@@ -81,13 +81,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoteService.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NoteService.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/services/com/markdevries/notes/NoteService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40456432">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="e#31#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BootStrap.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/init/BootStrap.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31120333">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -622,7 +634,6 @@
         <option value="$PROJECT_DIR$/src/main/groovy/com/markdevries/notes/struct/RequestFieldConverter.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/markdevries/notes/ErrorController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/init/com/markdevries/notes/Application.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/init/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/application.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/markdevries/notes/AsyncNoteService.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/markdevries/notes/type/RequestType.groovy" />
@@ -645,6 +656,7 @@
         <option value="$PROJECT_DIR$/grails-app/services/com/markdevries/notes/NoteService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/markdevries/notes/api/NoteController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/init/BootStrap.groovy" />
       </list>
     </option>
   </component>
@@ -1582,12 +1594,12 @@
       <created>1455517142387</created>
       <option name="number" value="Default" />
       <updated>1455517142387</updated>
-      <workItem from="1455517143771" duration="20539000" />
+      <workItem from="1455517143771" duration="21148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20539000" />
+    <option name="totallyTimeSpent" value="21148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -1675,16 +1687,6 @@
         <state vertical-scroll-proportion="0.5984042">
           <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/init/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63829786">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1844,10 +1846,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/com/markdevries/notes/NoteService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40456432">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
             <element signature="e#31#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/init/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31120333">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
